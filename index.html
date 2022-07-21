@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Lâmpadas</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h2>Teste de Lâmpadas</h2>
+        <img src="/img/off.jpg" alt="Lâmpada" id="lampada">
+        <form>
+            <input type="button" value="ON" onclick="on()" class="botao">
+            <input type="button" value="OFF" onclick="off()" class="botao">
+            <input type="button" value="BLINK" onclick="blink()" class="botao">
+        </form>
+    </div>
+    <script src="lampadas.js"></script>
 </body>
 </html>
